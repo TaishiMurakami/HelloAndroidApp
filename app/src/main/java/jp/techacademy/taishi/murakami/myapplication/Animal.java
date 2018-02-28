@@ -6,8 +6,7 @@ package jp.techacademy.taishi.murakami.myapplication;
 
 abstract class Animal {
     // メンバ変数
-    String name;  // 名前
-    String hobby;
+    String name;
     int age;    // 年齢
 
     abstract public void say();

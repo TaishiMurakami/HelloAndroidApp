@@ -7,11 +7,10 @@ package jp.techacademy.taishi.murakami.myapplication;
 import android.util.Log;
 
 class Human extends Animal implements Thinkable {
-    String name;
-    String hobby;
-    int age;
 
-    public Human(String name, String hobby, int age) {
+ String hobby;
+
+  public Human(String name, String hobby, int age) {
         this.name = name;
         this.hobby = hobby;
         this.age = age;
